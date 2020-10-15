@@ -56,21 +56,11 @@ advtrains.register_wagon("engine_railbus", {
 		},
 	},
 	assign_to_seat_group = {"dstand", "pass"},
-	doors={
-		open={
-			[-1]={frames={x=0, y=20}, time=1},
-			[1]={frames={x=40, y=60}, time=1}
-		},
-		close={
-			[-1]={frames={x=20, y=40}, time=1},
-			[1]={frames={x=60, y=80}, time=1}
-		}
-	},
 	door_entry={-1},
 	visual_size = {x=1, y=1},
 	wagon_span=2.5,
 	is_locomotive=true,
 	collisionbox = {-1.0,-0.5,-1.0, 1.0,2.5,1.0},
-	drops={"advtrains:railbus"},
+	drops={"advtrains:engine_railbus"},
 }, S("railbus"), "advtrains_railbus_inv.png")
 
